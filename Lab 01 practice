@@ -1,0 +1,72 @@
+print ("Hello , World !")
+print (4)
+print(type (" Hello , World !"))
+print(type (17))
+print(type (3.2))
+
+
+message = " Hello , How are you ?"
+n = 17
+pi = 3.14159
+
+print ( message )
+print (n )
+print ( pi )
+
+print(type ( message ))
+
+print(1 + 1)
+
+result = (3 + 2) * (8 / 4) ** 2 - 5
+
+print ( result )
+
+
+#Error
+'''
+message = " 2024 "
+print ( message -1)
+print ( message /12)
+print ( message +10)
+'''
+fruit = " banana "
+bakedGood = " bread "
+print ( fruit + bakedGood )
+
+print (" Happy " * 3)
+print (17 + 3)
+
+hour = 1
+minutes = 20
+print (" Number of minutes since midnight : ", hour *60+ minutes )
+
+print(int ("32"))
+print(int (-12.5),int(2.5))
+print(float(32),float("3.1456"))
+
+#print(int (" Hello "))  error
+
+print(type(str(23666)))
+
+prompt = " What is the airspeed velocity of an unladen swallow ?\n"
+speed1 = input ( prompt )
+print(type(speed1))
+print (" The velocity is:", speed1 , "m/s.\n")
+
+prompt = " What is the airspeed velocity of an unladen swallow ?\n"
+speed2 = int ( input ( prompt ))
+print(type(speed2))
+
+print ("%s has %d %s in her house .\n" % ( 'Emma', 5, 'Emma') )
+
+print (" {0:s} bought {1:5 d} apples and {2:2.3 f} litres of milk .". format ('Emma', 2, 1.2389) )
+
+
+
+
+
+
+
+
+
+
